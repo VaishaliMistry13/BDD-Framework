@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.038206">
+<testcase classname="Nopecommerce Register Functionality" name="Nopecommerce Register Functionality Test" time="18.038206">
+<failure message="org.junit.ComparisonFailure: expected:&lt;nopCommerce [register result.]&gt; but was:&lt;nopCommerce [demo store. Register]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at StepDefinition.RegisterStepDefinition.user_is_on_register_result_page(RegisterStepDefinition.java:52)&#13;&#10;&#9;at ✽.Then User is on register result page(C:/Users/C D Lad/Desktop/Software Testing/BDD Framework/src/test/java/Feature/Register.feature:10)&#13;&#10;"><![CDATA[Given User is on register page..............................................passed
+When Title of register page.................................................passed
+Then User enters register Details...........................................passed
+Then User click on register button..........................................passed
+Then User is on register result page........................................failed
+Then User click on continue button..........................................skipped
+Then User is on homepage....................................................skipped
+Then Close the webbrowser...................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<nopCommerce [register result.]> but was:<nopCommerce [demo store. Register]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefinition.RegisterStepDefinition.user_is_on_register_result_page(RegisterStepDefinition.java:52)
+	at ✽.Then User is on register result page(C:/Users/C D Lad/Desktop/Software Testing/BDD Framework/src/test/java/Feature/Register.feature:10)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#Simple Hard coded"
+          }
+        ],
+        "line": 5,
+        "name": "Nopecommerce Register Functionality Test",
+        "description": "",
+        "id": "nopecommerce-register-functionality;nopecommerce-register-functionality-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14358208300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on register page",
+            "match": {
+              "location": "RegisterStepDefinition.User_is_on_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58172800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Title of register page",
+            "match": {
+              "location": "RegisterStepDefinition.title_of_register_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2201293500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters register Details",
+            "match": {
+              "location": "RegisterStepDefinition.user_enters_register_Details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1385681600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on register button",
+            "match": {
+              "location": "RegisterStepDefinition.user_click_on_register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34849400,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cnopCommerce [register result.]\u003e but was:\u003cnopCommerce [demo store. Register]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefinition.RegisterStepDefinition.user_is_on_register_result_page(RegisterStepDefinition.java:52)\r\n\tat ✽.Then User is on register result page(C:/Users/C D Lad/Desktop/Software Testing/BDD Framework/src/test/java/Feature/Register.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "User is on register result page",
+            "match": {
+              "location": "RegisterStepDefinition.user_is_on_register_result_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User click on continue button",
+            "match": {
+              "location": "RegisterStepDefinition.user_click_on_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User is on homepage",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Close the webbrowser",
+            "match": {
+              "location": "RegisterStepDefinition.close_the_webbrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Nopecommerce Register Functionality",
+    "description": "",
+    "id": "nopecommerce-register-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/C D Lad/Desktop/Software Testing/BDD Framework/src/test/java/Feature/Register.feature"
+  }
+]
